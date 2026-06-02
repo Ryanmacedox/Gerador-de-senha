@@ -16,7 +16,10 @@ numeroSenha.textContent = tamanhoSenha;
 }
 function aumentaTamanho(){
 if(tamanhoSenha < 20)E
-tamanhoSenha = tamanhoSenha+1;
+//tamanhoSenha = tamanhoSenha+1;
+  tamanhoSenha++;
 }
 numeroSenha.textContent = tamanhosenha;
 }
+
+console.log(botoes);
